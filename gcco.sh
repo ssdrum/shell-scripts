@@ -19,13 +19,13 @@
 # ls separates output by newlines when piped by default
 input=$( ls -t | head -n 1 ) 
 
-if [ $input == *.c ]
+if [[ $input == *.c ]]
 then
     echo $input
     output=$( echo $input | cut -d . -f 1 )
     gcc -o $output $input
 
-    if [ $1 == "-e" ]
+    if [[ $1 == "-e" ]]
     then
         ./$output
     fi
