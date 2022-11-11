@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # NAME
-#      gcco - compile last modified c program 
+#      gcco - compiles last modified c program 
 #
 # SYNOPSIS
 #      gcco [-e]
