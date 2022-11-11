@@ -1,19 +1,19 @@
 #!/bin/sh
 
 # NAME
-#      gcco - compiles last modified c program 
+#     gcco - compiles last modified c program 
 #
 # SYNOPSIS
-#      gcco [-e]
+#     gcco [-e]
 #
 # DESCRIPTION
-#      gcco compiles the last modified file in the current directory if it
-#      is a C program. The executable's name is the same as the file's name without
-#      the .c extension.
+#     gcco compiles the last modified file in the current directory if it
+#     is a C program. The executable's name is the same as the file's name without
+#     the .c extension.
 #
-# The options are as follows:
+#     The options are as follows:
 #
-# -e      Executes compiled program
+#     -e      Executes compiled program
 
 
 # ls separates output by newlines when piped by default
