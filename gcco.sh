@@ -21,7 +21,7 @@ input=$( ls -t | head -n 1 )
 
 if [[ $input == *.c ]]
 then
-    echo $input
+    echo Executing $input
     output=$( echo $input | cut -d . -f 1 )
     gcc -o $output $input
 
